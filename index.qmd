@@ -1,0 +1,91 @@
+---
+title: "Time Series Analysis with Python"
+---
+
+# Time Series Analysis with Python
+
+*A comprehensive guide to time series analysis, forecasting, and temporal machine learning using Python.*
+
+---
+
+## Welcome
+
+This project is a long-term educational resource dedicated to learning and applying **time series analysis with Python**.
+
+Rather than focusing solely on forecasting, the goal is to develop a deep understanding of temporal data through statistical modeling, machine learning, and modern deep learning techniques.
+
+The project combines theoretical foundations, practical implementations, visual intuition, and real-world case studies into a cohesive learning experience.
+
+---
+
+## Project Goals
+
+The repository aims to:
+
+- Teach time series analysis from first principles.
+- Build intuition alongside mathematical rigor.
+- Explore classical statistical methods and modern machine learning techniques.
+- Develop reusable Python tools.
+- Demonstrate complete end-to-end workflows.
+- Serve as both an educational resource and a professional portfolio project.
+
+---
+
+## Planned Curriculum
+
+The project is organized into nine major sections.
+
+| Part | Topic |
+|------|-------|
+| I | Foundations |
+| II | Exploratory Time Series Analysis |
+| III | Statistical Foundations |
+| IV | Classical Forecasting Models |
+| V | Feature Engineering |
+| VI | Machine Learning |
+| VII | Deep Learning |
+| VIII | Model Evaluation |
+| IX | Case Studies |
+
+---
+
+## Repository
+
+The repository contains:
+
+- Educational notebooks
+- Reusable Python package (`ts`)
+- Real-world datasets
+- End-to-end projects
+- Interactive Quarto website
+- Unit tests
+- Reproducible workflows
+
+---
+
+## Current Status
+
+The project is currently under active development.
+
+The initial phase focuses on building the website infrastructure, reusable utilities, and the foundational chapters before expanding into forecasting models and advanced applications.
+
+---
+
+## Roadmap
+
+The long-term vision is to create a comprehensive reference covering:
+
+- Statistical time series analysis
+- Forecasting
+- Machine learning
+- Deep learning
+- Model evaluation
+- Real-world applications
+
+As the project evolves, new chapters and case studies will be added to continually expand the scope of the material.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
