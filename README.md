@@ -158,7 +158,6 @@ time-series-analysis/
 ├── LICENSE                                     # Project license.
 ├── CONTRIBUTING.md                             # Guidelines for contributors.
 ├── CHANGELOG.md                                # Project version history.
-├── ROADMAP.md                                  # Planned features, chapters, and future milestones.
 ├── pyproject.toml                              # Project metadata and tooling configuration.
 │
 ├── notebooks/
@@ -275,6 +274,7 @@ time-series-analysis/
 │   └── test_transforms.py
 │
 ├── scripts/
+│   ├── publish.sh                               # Execute notebooks and publish the site to gh-pages.
 │   ├── download_data.py                        # Download public datasets.
 │   ├── build_features.py                       # Generate reusable feature sets.
 │   ├── build_environment_files.py              # Synchronize dependency files.
@@ -300,7 +300,7 @@ time-series-analysis/
 ├── .pre-commit-config.yaml                     # Pre-commit hooks.
 ├── .editorconfig                               # Consistent editor settings across contributors.
 │
-└── _site/                                      # Generated Quarto website.
+└── _site/                                      # Generated Quarto website (gitignored, published via `scripts/publish.sh`).
 ```
 
 ---
@@ -376,7 +376,7 @@ The website provides:
 
 ## Roadmap
 
-The project will be developed incrementally.
+The project will be developed incrementally. A detailed, versioned plan is kept in `ROADMAP.md`, maintained locally alongside this repository (not tracked in git).
 
 - [ ] Foundations
 - [ ] Exploratory analysis
@@ -411,6 +411,12 @@ or install using pip:
 
 ```bash
 pip install -r requirements.txt
+```
+
+To render and publish the site to GitHub Pages after editing notebooks, run:
+
+```bash
+./scripts/publish.sh
 ```
 
 ---

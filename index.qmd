@@ -2,8 +2,6 @@
 title: "Time Series Analysis with Python"
 ---
 
-# Time Series Analysis with Python
-
 *A comprehensive guide to time series analysis, forecasting, and temporal machine learning using Python.*
 
 ---

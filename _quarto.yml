@@ -1,5 +1,11 @@
 project:
   type: website
+  # Only files listed here are rendered/published. `notebooks/` contains many
+  # placeholder chapters (title only, no content yet) that shouldn't turn
+  # into live empty pages — add a notebook here once it's actually written.
+  render:
+    - index.qmd
+    - notebooks/01_foundations/01_what_is_a_time_series.ipynb
 
 website:
   title: "Time Series Analysis with Python"
