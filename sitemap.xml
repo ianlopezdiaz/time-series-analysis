@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ianlopezdiaz.github.io/time-series-analysis/notebooks/01_foundations/01_what_is_a_time_series.html</loc>
-    <lastmod>2026-07-19T00:41:46.300Z</lastmod>
+    <loc>https://ianlopezdiaz.github.io/time-series-analysis/notebooks/01_foundations/02_time_indexes.html</loc>
+    <lastmod>2026-07-22T02:37:51.756Z</lastmod>
   </url>
   <url>
     <loc>https://ianlopezdiaz.github.io/time-series-analysis/index.html</loc>
-    <lastmod>2026-07-19T00:39:54.896Z</lastmod>
+    <lastmod>2026-07-22T02:36:03.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ianlopezdiaz.github.io/time-series-analysis/notebooks/01_foundations/01_what_is_a_time_series.html</loc>
+    <lastmod>2026-07-22T02:37:39.843Z</lastmod>
   </url>
 </urlset>
