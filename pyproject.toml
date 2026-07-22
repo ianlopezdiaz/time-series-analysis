@@ -9,6 +9,9 @@ dependencies = [
     "numpy",
     "pandas",
     "matplotlib",
+    "yfinance",
+    "pandas_market_calendars",
+    "python-bcb",
 ]
 
 [build-system]

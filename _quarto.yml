@@ -6,6 +6,7 @@ project:
   render:
     - index.qmd
     - notebooks/01_foundations/01_what_is_a_time_series.ipynb
+    - notebooks/01_foundations/02_time_indexes.ipynb
 
 website:
   title: "Time Series Analysis with Python"
@@ -24,6 +25,8 @@ website:
         menu:
           - href: notebooks/01_foundations/01_what_is_a_time_series.ipynb
             text: "01 - What is a Time Series?"
+          - href: notebooks/01_foundations/02_time_indexes.ipynb
+            text: "02 - Time Indexes"
       #
       # - text: Exploratory Analysis
       #   menu:

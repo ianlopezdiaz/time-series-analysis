@@ -2,3 +2,6 @@ numpy
 pandas
 matplotlib
 jupyter
+yfinance
+pandas_market_calendars
+python-bcb

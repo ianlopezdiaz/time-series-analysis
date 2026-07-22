@@ -7,3 +7,8 @@ dependencies:
   - pandas
   - matplotlib
   - jupyter
+  - pip
+  - pip:
+      - yfinance
+      - pandas_market_calendars
+      - python-bcb
